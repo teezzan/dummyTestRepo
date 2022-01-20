@@ -1,8 +1,8 @@
 name: Monthly Challenge Issue
-on:
-  schedule:
-    - cron: '*/1 * * * *'
-  workflow_dispatch
+on: workflow_dispatch
+  # schedule:
+  #   - cron: '*/1 * * * *'
+  
 
 jobs:
   create_issue:
