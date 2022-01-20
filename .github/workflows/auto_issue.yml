@@ -1,7 +1,6 @@
 name: Monthly Challenge Issue
 on:
-  schedule:
-    - cron: '*/5 * * * *'
+  schedul: workflow_dispatch
   
 
 jobs:
