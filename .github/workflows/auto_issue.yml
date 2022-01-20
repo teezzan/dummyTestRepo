@@ -1,8 +1,8 @@
 name: Monthly Challenge Issue
 on:
   schedule:
-    # run on the 20th of the month
-    - cron: '* * * * *'
+    - cron: '*/1 * * * *'
+  workflow_dispatch
 
 jobs:
   create_issue:
